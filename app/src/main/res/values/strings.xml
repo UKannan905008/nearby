@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NearBy5(karthic)</string>
+    <string name="heading"><b>Nearby</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

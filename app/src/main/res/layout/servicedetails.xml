@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/recycleimageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/servicerequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycleimageview"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Service Details"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/servicerequest"
+        android:fontFamily="@font/poppins_medium" />
+
+
+</RelativeLayout>
